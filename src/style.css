@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.bar:hover {
+  fill: #CC5500;
+}
+
+#title {
+  display: flex;
+  flex-direction: vertical;
+  text-align: center;
+  justify-content: center;
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+}
+
+#plotter {
+  display: flex;
+  flex-direction: vertical;
+  text-align: center;
+  justify-content: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  transform: translateX(10px);
+}
